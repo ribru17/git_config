@@ -14,6 +14,7 @@
 [alias]
 	a = add
 	b = branch
+	db = branch -d
 	c = commit
 	ca = commit -a
 	d = diff
