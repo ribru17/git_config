@@ -4,6 +4,11 @@
 [core]
 	editor = nvim
 	pager = delta
+[pager]
+	blame  = delta
+	diff   = delta
+	reflog = delta
+	show   = delta
 [credential]
 	helper = libsecret
 [delta]
@@ -26,6 +31,7 @@
 	uncommit = reset HEAD~1
 	recommit = reset ORIG_HEAD
 	info = !git remote -v && git status && git diff
+	undo = reset --hard HEAD
 [pull]
 	rebase = true
 [merge]
