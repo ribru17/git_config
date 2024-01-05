@@ -13,7 +13,7 @@
 	helper = libsecret
 [delta]
 	navigate = true
-	syntax-theme = Dracula
+	syntax-theme = bamboo
 	side-by-side = false
 	line-numbers = true
 [alias]
