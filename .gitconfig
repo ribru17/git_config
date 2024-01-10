@@ -23,6 +23,7 @@
 	c = commit
 	ca = commit -a
 	d = diff
+	l = log
 	p = push
 	po = push origin
 	poc = !git push origin $(git symbolic-ref --short HEAD)
