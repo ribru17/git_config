@@ -33,6 +33,7 @@
 	recommit = reset ORIG_HEAD
 	info = !git remote -v && git status && git diff
 	undo = reset --hard HEAD
+	squash = "!f() { git rebase -i HEAD~$1; }; f"
 [pull]
 	rebase = true
 [merge]
