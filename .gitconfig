@@ -28,6 +28,7 @@
 	po = push origin
 	poc = !git push origin $(git symbolic-ref --short HEAD)
 	pod = push -u origin master
+	s = show
 	new = checkout -b
 	uncommit = reset HEAD~1
 	recommit = reset ORIG_HEAD
