@@ -44,3 +44,5 @@
 	keepBackup = false
 [mergetool "vimdiff"]
 	cmd = nvim -d $LOCAL $MERGED $REMOTE -c 'wincmd l'
+[rebase]
+	autoSquash = true
