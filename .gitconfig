@@ -34,7 +34,7 @@
 	new = checkout -b
 	uncommit = reset HEAD~1
 	recommit = reset ORIG_HEAD
-	info = !git remote -v && git status && git diff
+	info = !git diff && git remote -v && git status
 	undo = reset --hard HEAD
 	squash = "!f() { git rebase -i HEAD~$1; }; f"
 [pull]
@@ -48,3 +48,5 @@
 	cmd = nvim -d $LOCAL $MERGED $REMOTE -c 'wincmd l'
 [rebase]
 	autoSquash = true
+[push]
+	autoSetupRemote = true
